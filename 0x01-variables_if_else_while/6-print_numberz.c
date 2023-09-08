@@ -7,12 +7,11 @@
  */
 int main(void)
 {
-	char numberz[10] = "0123456789";
 	int i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(numberz[i]);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
