@@ -9,13 +9,14 @@
  */
 int main(void)
 {
+	char letters[26] = "abcdefghijklmnopqrstuvwxyz";
 	int a;
 
-	for (a = 1; a <= 25; a++)
+	for (a = 0; a < 26; a++)
 	{
-		if (a != 5 && a != 16)
+		if (a != 4 && a != 15)
 		{
-			putchar(a);
+			putchar(letters[a]);
 		}
 	}
 	putchar('\n');
