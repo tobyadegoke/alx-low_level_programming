@@ -11,7 +11,7 @@ int main(void)
 {
 	int a;
 
-	for (a = 25; a <= 25; a++)
+	for (a = 1; a <= 25; a++)
 	{
 		if (a != 5 && a != 16)
 		{
